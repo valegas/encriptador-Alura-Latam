@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="public/style.css">
+    <title>Encriptador de Texto</title>
+</head>
+<body>
+    
+    <!--Encabezado-->
+    <header>
+        <a href="#" rel="">
+            <img src="img/Logo.png" alt="Logo Alura" class="logo">
+        </a>
+    </header>
+
+    <!--Principal-->
+    <main>
+        <section class="encriptador">
+             <textarea class="encriptar" placeholder="ingrese el texto aqui"></textarea>
+             <div class="encriptador-aviso">
+                  <img src="img/bi_exclamation-circle-fill-1.png" alt="imagen aviso" class="img-aviso">
+                  <p class="texto-aviso"> solo letras minusculas y sin acentos </p>
+             </div>
+             <div class="encriptador-contenedor">
+                  <button type="submit" class="btn-encriptar">Encriptar!</button>
+                  <button type="submit" class="btn-desencriptar">Desencriptar!</button>
+             </div>
+       </section> 
+       <section class="tarjeta">
+          <div class="tarjeta-contenedor">
+               <img src="img/Muñeco.png" alt="Imagen Muñeco" class="img muñeco">
+               <p class="texto-uno">Ningun mensaje fue encontrado</p>
+               <p class="texto-dos">ingrese el texto que deseas encriptar o desencriptar</p>
+          </div>
+          <textarea type="mensaje" class="evaluar" readonly></textarea>
+          <button type="submit" class="btn-copiar">copiar</button>
+        </section>
+   </main>
+
+   <!--pie de pagina-->
+   <footer>
+    
+    <p class="copyright">&copy; copyright 2024 - Encriptador de texto -  Gaston Castillo</p>
+     <marquee class="marquee-alura" behavior="encriptador con Alura Latam" direction="">encriptador con Alura Latam </marquee>
+     
+
+         <a href="https://github.com/valegas" rel=""></a>
+
+       
+      
+    
+          
+   </footer>
+
+   <script src="app.js"></script>
+
+</body>
+</html>
